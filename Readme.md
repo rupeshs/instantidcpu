@@ -2,6 +2,8 @@
 
 InstantID CPU inference with less memory requirement(11GB RAM).
 
+![InstantID CPU Screenshot](https://raw.githubusercontent.com/rupeshs/instantidcpu/main/instantidcpu-screenshot.jpg)
+
 ## Prerequisites
 
 - Python 3.10 or higher
@@ -17,7 +19,7 @@ Follow these steps :
 - Double click install.bat(It will take some time to install,depending on your internet speed.)
 - To start desktop GUI double click start.bat
 
-## Linux
+## Linux/Mac
 
 Run the following command in the terminal
 
