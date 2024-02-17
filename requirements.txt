@@ -1,0 +1,7 @@
+accelerate==0.27.2
+diffusers==0.26.3
+gradio==4.19.0
+transformers==4.37.2
+insightface==0.7.3
+opencv-python==4.9.0.80
+onnxruntime==1.17.0
