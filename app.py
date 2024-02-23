@@ -34,11 +34,13 @@ torch_dtype = torch.float32
 controlnet = ControlNetModel.from_pretrained(
     controlnet_path,
     torch_dtype=torch_dtype,
+    resume_download=True,
 )
 pipe = StableDiffusionXLInstantIDPipeline.from_pretrained(
     base_model,
     controlnet=controlnet,
     torch_dtype=torch_dtype,
+    resume_download=True,
 )
 pipe.load_ip_adapter_instantid(face_adapter)
 pipe.to(device)
